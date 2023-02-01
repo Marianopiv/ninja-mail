@@ -1,0 +1,3 @@
+Crear clases de position absolute con media query, ejemplo top-md-50 bottom-md-100 start-lg-25
+
+utilizar estas clases creadas para acomodar h1 p buttons del primer section a partir de lg

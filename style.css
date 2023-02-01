@@ -1,0 +1,260 @@
+/*Font-size personalizado*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@500&display=swap');
+
+ 
+/* //font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+.ls-1 {
+    letter-spacing: 0.6px;
+}
+
+.ff-pd {
+    font-family: 'Playfair Display', serif;
+}
+.ff-r {
+    font-family: 'Raleway', sans-serif;
+}
+.fs-13 {
+    font-size:13px!important;
+}
+.fs-9 {
+    font-size:9px!important;
+}
+
+.fs-27 {
+    font-size:27px;
+}
+
+/*Color botones*/ 
+
+.bg-custom {
+    background-color: #4BA87D!important;
+}
+.fc-custom {
+    color:#4BA87D!important;
+    border:1px solid #4BA87D!important;
+}
+
+.fc-custom1 {
+    color:#4BA87D!important;
+}
+/*Tamaños generales*/
+.max-h-100 {
+    max-height: 100px;
+}
+
+
+/*Ultra Small de 400px a 570px*/
+@media (max-width:576px) {
+    .customImg {
+    width: 1000px;
+    height: 1200px!important;
+  }
+  .empujaSection {
+    margin-bottom: 250px !important;
+    padding-bottom: 9.5rem !important;
+  }
+}
+
+
+@media (min-width:350px) {
+    .px-xsm-1 {
+        padding:1!important;
+    }
+}
+
+@media (min-width:400px) {
+    .w-usm-50 {
+        width:50%;
+    }
+
+    .w-usm-60 {
+        width:60%;
+    }
+
+    .mx-auto {
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .fs-sm-13 {
+        font-size:13px!important;
+    }
+
+    .fs-sm-40 {
+        font-size: 40px;
+    }
+
+    .w-sm-100 {
+    width:100%!important;
+    }
+    .w-sm-75 {
+    width:75%!important;
+    }
+    .w-sm-50 {
+    width:50%!important;
+    }
+    .w-sm-25 {
+    width:25%!important;
+    }
+    .h-sm-100 {
+    height:100%!important;
+    }
+    .h-sm-75 {
+    height:75%!important;
+    }
+    .h-sm-50 {
+    height:50%!important;
+    }
+    .h-sm-25 {
+    height:25%!important;
+    }
+    }
+
+    /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .fs-md-23 {
+        font-size:23px!important;
+    }
+    .fs-md-56 {
+        font-size: 56px;
+    }
+    .w-md-100 {
+    width:100%!important;
+    }
+    .w-md-75 {
+    width:75%!important;
+    }
+    .w-md-50 {
+    width:50%!important;
+    }
+    .w-md-40 {
+    width:40%!important;
+    }
+    .w-md-25 {
+    width:25%!important;
+    }
+    .h-md-100 {
+    height:100%!important;
+    }
+    .h-md-75 {
+    height:75%!important;
+    }
+    .h-md-50 {
+    height:50%!important;
+    }
+    .h-md-25 {
+    height:25%!important;
+    }
+    /*Position personalizado agregado por mi*/
+
+    .position-md-absolute {
+        position: absolute;
+    }
+    .top-md-10 {
+        top:10%;
+    }
+
+    .top-md-20 {
+        top:20%;
+    }
+
+    .top-md-30 {
+        top:30%;
+    }
+
+    .top-md-40 {
+        top:40%;
+    }
+
+
+    .top-md-50 {
+        top:50%;
+    }
+
+    .top-md-60 {
+        top:60%;
+    }
+
+    .bottom-md-10 {
+        bottom:10%;
+    }
+
+    .bottom-md-20 {
+        bottom:20%;
+    }
+
+    .bottom-md-50 {
+        bottom:50%;
+    }
+}
+    /* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .w-lg-100 {
+    width:100%!important;
+    }
+    .w-lg-75 {
+    width:75%!important;
+    }
+    .w-lg-65 {
+    width:65%!important;
+    }   
+    .w-lg-50 {
+    width:50%!important;
+    }
+    .w-lg-25 {
+    width:25%!important;
+    }
+    .h-lg-100 {
+    height:100%!important;
+    }
+    .h-lg-75 {
+    height:75%!important;
+    }
+    .h-lg-50 {
+    height:50%!important;
+    }
+    .h-lg-25 {
+    height:25%!important;
+    }
+    /*Position personalizado agregado*/
+    .top-lg-10 {
+        top:10%;
+    }
+
+    .top-lg-20 {
+        top:20%;
+    }
+
+    .top-lg-30 {
+        top:30%;
+    }
+
+    .top-lg-40 {
+        top:40%;
+    }
+
+
+    .top-lg-50 {
+        top:50%;
+    }
+
+    .top-lg-60 {
+        top:60%;
+    }
+
+    .bottom-lg-10 {
+        bottom:10%;
+    }
+
+    .bottom-lg-20 {
+        bottom:20%;
+    }
+
+    .bottom-lg-50 {
+        bottom:50%;
+    }
+}

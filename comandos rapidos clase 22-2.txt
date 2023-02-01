@@ -1,0 +1,2 @@
+alt-shift-f acomodar
+para poner class en emmet usar un . por clase.
